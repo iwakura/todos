@@ -1,0 +1,25 @@
+== Introduction
+
+Interactive command line application for managing list of tasks.
+Allow create new tasks, remove tasks, mark task as done and
+filter tasks on project or context.
+
+On first run, application create database in the user home directory.
+
+
+== Requirements
+
+* SQLite3 database engine (tested with sqlite3-3.6.19)
+* sqlite3 ruby gem (tested with rubygem-sqlite3-1.2.5)
+* sequel ruby gem (tested with sequel-3.6.0)
+
+
+== License
+
+Application is released under the terms of the BSD License (see the License file for details).
+
+
+== Author
+
+Iwakura Taro, taro@mail333.com
+
