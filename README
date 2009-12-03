@@ -4,7 +4,7 @@ Interactive command line application for managing list of tasks.
 Allow create new tasks, remove tasks, mark task as done and
 filter tasks on project or context.
 
-On first run, application create database in the user home directory.
+On first run, application will create database in the user home directory.
 
 
 == Requirements

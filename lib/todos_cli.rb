@@ -1,4 +1,4 @@
-module Todo
+module Todos
 
   module Asker
     def self.multi(fields)

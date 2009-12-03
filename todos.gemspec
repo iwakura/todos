@@ -1,7 +1,7 @@
 Gem::Specification.new do |spec|
-  spec.name = 'todo'
+  spec.name = 'todos'
   spec.version = '0.0.1'
-  spec.executables = 'todo'
+  spec.executables = 'todos'
   spec.add_dependency 'sqlite3-ruby', '>=1.2.4'
   spec.add_dependency 'sequel', '>=3.6.0'
   spec.summary = 'Interactive CLI tool for managing list of tasks'

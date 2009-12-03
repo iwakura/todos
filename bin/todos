@@ -1,0 +1,14 @@
+#!/usr/bin/env ruby
+
+
+require 'rubygems'
+require 'sequel'
+
+DB_PATH = File.join(ENV['HOME'], 'todos.sqlite3')
+DB = Sequel.connect("sqlite://#{DB_PATH}")
+
+require 'todos_database.rb'
+require 'todos_cli.rb'
+
+Todos::Commands::GeneralCommands.run
+
